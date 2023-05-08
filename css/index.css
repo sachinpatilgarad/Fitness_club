@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+.nav-link:hover{
+    color: orange;}
+
+.btn:hover{
+    background-color: gray;
+}
+
+.ctaSection{
+    background-image: url(../Images/smoke-overlays-1-AE77V6.jpg);
+    background-position: top;
+    height: 55rem;
+}
+
+.row,.vertLines{
+    height: 90px;
+    width: 1px;
+}
+
+.dumble,.total-fitness{
+    border-radius: 10px;
+}
+
+.Awsome,.client-main{
+    background-image: url(../Images/smoke-overlays-21-AE77V6.jpg);
+    background-position: right;
+    height: 48rem;
+}
+
+.img-contain:hover img{
+    transform: scale(1.1); 
+}
+
+.women-gym,.humen-gym{
+    transition: 0.5s all ease-in-out;
+}
+
+.card:hover,.dumble:hover,.total-fitness:hover{
+    background-size: cover;
+    box-shadow: 0px 0px 15px rgb(243, 233, 233);
+    transition: 0.3s all linear;
+    border-radius: 5%;
+}
+
+.gallery{
+    background-image: linear-gradient(#27303995, #30383a95), url(../Images/weight-plates-in-a-gym-powerlifting-equipment-CEXNKKL-1.jpg);
+    background-attachment: fixed;
+}
+
+.owsm{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.women-gym,.mini-imgs{
+    border-radius: 50%;
+}
+
+.happy{
+    background-image: linear-gradient(#11151895, #13171995), url(../Images/close-up-of-new-dumbbells-on-a-rack-in-a-gym-T2TRKFG.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+@media (min-width: 768px){
+
+}
+
+@media(min-width:992px){
+ 
+  .out{
+        float: right;
+        width: 25%;
+      }
+
+}
